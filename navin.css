@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"); /*font-family: 'Inconsolata', monospace;*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /*font-family: 'Montserrat', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap"); /*font-family: 'Kanit', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"); /*font-family: 'Lilita One', cursive;*/
+
+body{
+    background-color: aliceblue;
+    color: rgb(29, 29, 29);
+    font-family: 'Inconsolata', monospace;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navbar {
+    color: rgb(0, 0, 0);
+    z-index: 12;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nc{
+    background-color: rgba(189, 212, 237, 0.6);
+}
+
+.nc:hover{
+    background-color: rgb(189, 212, 237, 1);
+}
+
+.li:hover {
+    font-weight: bold;
+}
+
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.iconbg{
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(141, 141, 141, 0.5);
+    margin: 1vw;
+}
+
+.icon{
+    padding: 1vw;
+}
+
+.title{
+    font-family: 'Lilita One', cursive;
+}
