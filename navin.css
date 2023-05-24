@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"); /*font-family: 'Inconsolata', monospace;*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /*font-family: 'Montserrat', sans-serif;*/
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap"); /*font-family: 'Kanit', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"); /*font-family: 'Kanit', sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"); /*font-family: 'Lilita One', cursive;*/
 
 body{
     background-color: aliceblue;
-    color: rgb(29, 29, 29);
+    color: rgb(30, 48, 80);
     font-family: 'Inconsolata', monospace;
 }
 
@@ -64,4 +64,21 @@ body{
 
 .title{
     font-family: 'Lilita One', cursive;
+}
+
+.fa{
+    color: rgb(30, 48, 80);
+}
+
+.fat{
+    color: white;
+    font-size: 1.5vw;
+}
+
+footer{
+    margin: auto;
+    background-color: rgb(183, 200, 219);
+    padding: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
