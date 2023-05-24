@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"); /*font-family: 'Inconsolata', monospace;*/
+
+body{
+    background-color: aliceblue;
+    color: rgb(29, 29, 29);
+    font-family: 'Inconsolata', monospace;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+.navbar {
+    color: rgb(0, 0, 0);
+    opacity: 0.70;
+    z-index: 12;
+    background-color: #d5e1ee;
+    overflow: hidden;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar:hover{
+    opacity: 1;
+}
+
+.li:hover {
+    font-weight: bold;
+    background-color: #ececec;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
