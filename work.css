@@ -7,10 +7,9 @@
     background-color: rgb(140, 160, 183, 1);
     border: none;
     color: rgb(255, 255, 255);
-    font-size: 1.5vw;
     text-align: center;
     display: inline-block;
-    width: 35%;
+    width: 100%;
     margin: 0.5vw;
     text-decoration: none;
     padding: 0.5vw;
@@ -25,7 +24,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
 }
 
 .pro{
@@ -38,7 +36,6 @@
     border: none;
     text-decoration: none;
     color: rgb(140, 160, 183,);
-    font-size: 1vw;
     text-align: center;
     display: inline-block;
     width: 100%;
