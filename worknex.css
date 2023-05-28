@@ -46,3 +46,26 @@
     background-color: rgb(255, 255, 255, 0.8);
 }
 
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(30, 48, 80, 0.5); /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: aliceblue;
+    font-size: 1.5vw;
+    padding: 1vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.con {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.con:hover .overlay {
+    opacity: 1;
+}
