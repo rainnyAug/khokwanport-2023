@@ -59,7 +59,8 @@ body{
 }
 
 .icon{
-    padding: 1vw;
+    padding: 1vh;
+    margin: 0.5vh;
 }
 
 .title{
