@@ -112,7 +112,12 @@ def main():
 
   #โปรแกรมที่6
   elif (x==6):
-    name = ["ขอขวัญ", "ขอขวัญ เตชะองอาจ", "Khokwan", "Khokwan Tachaongart", "Ohm", "โอม", "พัฒนพร", "พัฒนพร จงเลิศวราวงศ์", "Pattanaporn", "Pattanaporn Chonglertvarawong", "Fame", "เฟม", "อัครวิชญ์", "อัครวิชญ์ ไร่คลองครุ", "Akaravit Raiklongkru", "Turbo", "เทอร์โบ", "Akaravit", "พรรษกร", "พรรษกร เสริมศรี", "Pasagorn", "Pasagorn Sermsri", "Guy", "กาย"]
+    name = ["ขอขวัญ", "ขอขวัญ เตชะองอาจ", "Khokwan", "Khokwan Tachaongart",
+            "Ohm", "โอม", "พัฒนพร", "พัฒนพร จงเลิศวราวงศ์", "Pattanaporn",
+            "Pattanaporn Chonglertvarawong", "Fame", "เฟม", "อัครวิชญ์",
+            "อัครวิชญ์ ไร่คลองครุ", "Akaravit Raiklongkru", "Turbo", "เทอร์โบ",
+            "Akaravit", "พรรษกร", "พรรษกร เสริมศรี", "Pasagorn",
+            "Pasagorn Sermsri", "Guy", "กาย"]
     
     search = str(input("กรุณาป้อนรายชื่อที่ต้องการค้นหา : "))
     for n in name:
